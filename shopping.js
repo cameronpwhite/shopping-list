@@ -27,7 +27,7 @@ let addToShoppingList = (name) => {
     newItem.id = idForNewItem;
     newItem.name = name;
     newItem.isEdible = true;
-    newItem.dateCreated = "7-16-2021"
+    newItem.dateCreated = new Date();
     shoppingList.push(newItem)
 }
 
